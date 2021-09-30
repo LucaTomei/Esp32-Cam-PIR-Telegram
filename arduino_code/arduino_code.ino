@@ -18,6 +18,7 @@
 #include "driver/rtc_io.h"
 
 const int hour_to_flash = 20; // hour to enable autoflash
+const int hour_till_flash = 6; // hour to enable autoflash
 
 #include <TimeLib.h>
 bool checkHour = false; // check hour to automatic enable the flash
@@ -333,7 +334,7 @@ void handleNewMessages(int numNewMessages) {
 
     telegramMessage message = bot.messages[i];
     int now_hour = getHourFromTelegram(message); // get hour
-    if ((checkHour) && (now_hour >= hour_to_flash)) {
+    if ((checkHour) && (now_hour >= hour_to_flash &&  now_hour <= hour_till_flash)) {
       flashEnabled = true;  
     }
     
