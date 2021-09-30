@@ -2,14 +2,15 @@
 
 Security-Camera with Esp32 Cam, PIR and Telegram Bot with a beautiful ReplyKeyboard.
 
-## Introduction
-
-This is a Telegram bot for the ESP32-CAM that allows you to control your board from anywhere to request a photo, sensor readings or control the flash. Additionally, you’ll receive a notification with a new photo whenever motion is detected.
-
 <p align="center">
   <img src="img/1.png" width="45%"/>
   <img src="img/2.png" width="45%"/>
 </p>
+
+
+## Introduction
+
+This is a Telegram bot for the ESP32-CAM that allows you to control your board from anywhere to request a photo, sensor readings or control the flash. Additionally, you’ll receive a notification with a new photo whenever motion is detected.
 
 <p align="center">
   <img src="img/1.jpg" width="45%"/>
