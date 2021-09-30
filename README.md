@@ -46,7 +46,7 @@ This is a Telegram bot for the ESP32-CAM that allows you to control your board f
 
 ## Still to be implemented:
 
-- [ ] Beautiful keyboard with emoji
-- [ ] Video recordings based on motion and Telegram command
-- [ ] Save photo/video on micro-sd card
+- [x] Beautiful keyboard with emoji
+- [ ] Video recordings based on motion and Telegram command
+- [ ] Save photo/video on micro-sd card
 - [ ] SSH communication protocol to save photo in secondary network storage
